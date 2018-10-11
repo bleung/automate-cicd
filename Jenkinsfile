@@ -10,7 +10,6 @@ pipeline {
 
         stage('Syntax Check') {
             steps {
-#                sh  "ansible-playbook -i app1, hackathons/rhte-2018-emea/playbook-ansible-role-banner.yaml --syntax-check"
                 sh "ansible-playbook -i app1, test.yml --syntax-check
             }
         }
