@@ -10,7 +10,7 @@ pipeline {
 
         stage('Syntax Check') {
             steps {
-                sh "ansible-playbook -i app1, test.yml --syntax-check
+                sh "ansible-playbook -i app1, test.yml --syntax-check"
             }
         }
 
